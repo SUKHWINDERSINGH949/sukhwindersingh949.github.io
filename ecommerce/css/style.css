@@ -1,0 +1,270 @@
+body {
+    font-family: 'Caladea Regular';
+    margin: -22px auto;
+}
+
+
+header {
+    width: 100%;
+    background: #fff;
+    height: auto;
+    box-shadow: 0px 6px 5px 0px rgba(201, 187, 201, 1);
+    justify-content: flex-start;
+    float: left;
+}
+.upper-bar {
+    width: 100%;
+    float: left;
+    height: 50px;
+    background: lightblue;
+    display: flex;
+}
+
+.lower-bar {
+       width: 100%;
+    float: left;
+    display: flex;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    
+}
+
+.logo {
+    width: 39%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo img {
+    width: 220px;
+    float: left;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 61%;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 9px;
+    height: 23px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+nav ul li a {
+    color: #707070;
+}
+
+nav ul li ul {
+    width: 75px;
+    box-shadow: -1px 3px 5px 6px rgba(224, 213, 224, 1);
+    text-align: left;
+    position: absolute;
+    display: none;
+    top: 137px;
+}
+
+
+nav ul li:hover {
+    background-color: lightgray;
+    color: white;
+}
+
+
+
+nav ul li:hover ul {
+    display: block;
+
+}
+
+nav ul li ul li {
+    margin-left: -39px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    z-index: 10000;
+    background: white
+}
+
+.droparrow {
+    width: 10px;
+}
+
+main {
+    width: 100%;
+    float: left;
+}
+
+.main-content {
+    width : 100%;
+    float:  left;
+}
+.banner{
+   width : 100%;
+    float:  left;
+}
+.banner img{
+    width: 100%;
+} 
+
+.middle-content {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: -75px;
+}
+
+.middle-content h4{
+   color: #707070;
+    margin-bottom: -113px;
+}
+
+.product-listing {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gridlisting {
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 135px;
+}
+
+
+.home-content {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: -100px;
+}
+
+.home-content h4{
+   color: #707070;
+    margin-bottom: -92px;
+}
+
+.second-gridlisting {
+    display: grid;
+  grid-template-columns: auto auto;
+  padding: 135px;
+}
+
+
+.product-gallery {
+    width: 100%;
+    float: left;
+    text-align: center;
+    
+}
+
+.product-gallery h4{
+   color: #707070;
+    
+}
+
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.gallery-column {
+    
+  flex: 18%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.gallery-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.gallery-listing 
+{
+    width: 78%;
+    margin: 0 auto;
+}
+
+
+.button {
+        
+    width: 100%;
+    float: left;
+    margin: 38px 0 51px 0;
+    
+}
+
+.button a {
+    border: 1px solid lightblue;
+    background: lightblue;
+    padding: 11px;
+    text-decoration: none;
+    color: white;
+}
+footer {
+    width: 100%;
+    float: left;
+    background: lightgray;
+    color: white;
+}
+
+.footer-listing{
+    width: 78%;
+    margin: 0 auto;
+}
+
+
+.footer-widget {
+    width: 24%;
+    float: left;
+}
+
+
+.footer-widget hr{
+    width: 24%;
+    float: left;
+}
+
+.footer-lower {
+    width: 100%;
+    float: left;
+    background: white;
+    height: 50px;
+}
+
+.main-footer{
+   width: 79%;
+    margin: 0 auto;
+}
+.footer-left {
+    width: 50%;
+    float: left;
+}
+.footer-left a {
+    text-decoration: none;
+    color: gray;
+    padding-left: 38px;
+}
+.footer-right {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
